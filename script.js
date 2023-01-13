@@ -1,3 +1,17 @@
+var swiper = new Swiper(".review-slider", {
+    slidesPerView: 1,
+    spaceBetween: 25,
+    breakpoints: {
+        768: {
+          slidesPerView: 2
+        },
+        1024: {
+            slidesPerView: 3
+          },
+      }
+  });
+  
+  
 let searchBtn = document.querySelector('#search-btn');
 let searchBar = document.querySelector('.container-search-bar');
 
@@ -34,4 +48,3 @@ videoBtn.forEach(btn =>{
     });
 });
 
-var swiper = new swiper(".review-slider", {});
