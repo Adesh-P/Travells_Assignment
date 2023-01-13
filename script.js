@@ -34,4 +34,4 @@ videoBtn.forEach(btn =>{
     });
 });
 
-var swiper = new Swiper(".mySwiper", {});
+var swiper = new swiper(".mySwiper", {});
