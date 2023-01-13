@@ -432,7 +432,6 @@ section {
 .review .wrapper .slider {
     flex: 1 1 24%; 
 } */
-
 .contact .row {
     display: flex;
     flex-wrap: wrap;
@@ -511,6 +510,15 @@ section {
 #check:checked ~ .navbar {
     left: 0;
 }
+
+
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
