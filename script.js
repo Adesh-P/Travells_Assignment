@@ -10,6 +10,7 @@ var swiper = new Swiper(".review-slider", {
           },
       }
   });
+  
   var swiper = new Swiper(".swiper-main", {
     slidesPerView: 1,
     spaceBetween: 25,
