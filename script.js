@@ -10,7 +10,24 @@ var swiper = new Swiper(".review-slider", {
           },
       }
   });
-  
+  var swiper = new Swiper(".swiper-main", {
+    slidesPerView: 1,
+    spaceBetween: 25,
+    breakpoints: {
+        576: {
+          slidesPerView: 2
+        },
+        768: {
+            slidesPerView: 3
+        },
+        992: {
+            slidesPerView: 4
+        },
+        1200: {
+            slidesPerView: 5
+          },
+      }
+  });
   
 let searchBtn = document.querySelector('#search-btn');
 let searchBar = document.querySelector('.container-search-bar');
